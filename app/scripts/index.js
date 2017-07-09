@@ -1,7 +1,6 @@
 $(document).ready(function () {
     initNavigation();
     mainSlider();
-    gallery();
     initBookingForm();
 
 });
@@ -19,10 +18,6 @@ function mainSlider() {
         arrows: true,
         adaptiveHeight: true
     })
-};
-
-function gallery() {
-    $('.gallery a').simpleLightbox();
 };
 
 function initNavigation() {
