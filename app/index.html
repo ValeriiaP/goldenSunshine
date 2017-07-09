@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Hotel</title>
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="components/fullpage.js/dist/jquery.fullpage.css" />
+    <link rel="stylesheet" href="components/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="components/slick-carousel/slick/slick-theme.css" />
+    <!-- endbower -->
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+
+    <!--my stylesheet-->
+    <link rel="stylesheet" href="components/jquery-ui/themes/base/datepicker.css">
+    <link rel="stylesheet" href="components/jquery-ui/themes/base/all.css">
+    <link rel="stylesheet" href="static/css/style.css">
+
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+
+
+</head>
+<body>
+<header>
+    <nav class="navigation header" id="head">
+        <a class="toggle-navigation" href="#">&#9776;</a>
+
+        <ul class="navigation-content" role="tree">
+
+            <li class="navigation-item"><a href="index.html">Golden Sunshine</a></li>
+
+            <li class="navigation-item"><a href="#about-hotel">About us</a></li>
+
+            <li class="navigation-item dropdown">
+                <a href="#dbl-room">Rooms</a>
+                <ul class="sub-menu">
+                    <li><a href="#dbl-room">Standard Double rooms</a></li>
+                    <li><a href="#suite-room">Suite</a></li>
+                    <li><a href="#deluxe">Deluxe room</a></li>
+                </ul>
+            </li>
+
+            <li class="navigation-item"><a href="#bookRoom">Booking</a></li>
+
+            <li class="navigation-item dropdown"><a href="#service">Facilities and Services</a>
+                <ul class="sub-menu">
+                    <li><a href="#SPA">Spa Utopia</a></li>
+                    <li><a href="#fitness">Fitness Club</a></li>
+                    <li><a href="#pool">Swimming Pool</a></li>
+                </ul>
+            </li>
+            <li class="navigation-item"><a href="#contact-info">Contact Us</a></li>
+            <li class="navigation-item"><a href="html/photoGallery.html">Photo Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="fullpage">
+
+    <section class="section">
+
+        <div class="main-slider">
+            <ul class="main-slider-list">
+                <li><img src="static/img/slider/1.jpg" alt="View from the window"/></li>
+                <li><img src="static/img/slider/2.jpg" alt="Entrance to the hotel"/></li>
+                <li><img src="static/img/slider/3.jpg" alt="Appearance view of the room"/></li>
+                <li><img src="static/img/slider/4.jpg" alt="Reception desk"/></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="section" data-tooltip="About us">
+
+        <div class="main-content about-us" id="about-hotel">
+            <div>
+                <img class="image" src="static/img-min/about-us_2.jpg" alt="Vancouver"/>
+            </div>
+            <div>
+                <h2>About Golden sunshine resort</h2>
+                <p>Welcome to the Golden Sunshine hotel inVancouver. Our staff is always here to help; no request is too
+                    big or too small. We make it our mission to provide you with an attentive service tailored to meet
+                    your needs.</p>
+                <p>Golden Sunshine hotel is a newly renovated boutique-style hotel situated in the heart of Vancouver's
+                    entertainment district. This Vancouver, Canada hotel is minutes from BC Place Stadium, Granville
+                    Island, the Vancouver Convention & Exhibition Centre, the University of British Columbia, Grouse
+                    Mountain, Stanley Park and Vancouver International Airport.</p>
+                <p>There is a diverse selection of restaurants and lounges surrounding the hotel within this enlivened
+                    neighborhood. As an added benefit, our guests receive free VIP access to the on-site The Cellar
+                    nightclub and The Roxy cabaret. This includes an advance line and no cover before 10 p.m. Guests
+                    also receive a 25 percent discount at the on-site restaurant, Doolin's Irish Pub, before 6 p.m.</p>
+                <p>This Vancouver, Canada hotel provides amenities and features like:
+                <ul>
+                    <li>Discounted day passes to Steve Nash Fitness World & Sports Club</li>
+                    <li>Free wired and wireless high-speed Internet access</li>
+                </ul>
+
+                <p>Nestling in what can be only described as a Garden of Eden, Golden Sunset Hotel offers discerning
+                    couples
+                    and families a home away from home to relax and unwind.</p>
+
+                <p>The hotel is one of the few in the area to offer a full size swimming pool and children's pool. All
+                    modern conveniences are provided from hairdryers, TV, to free wireless internet access.</p>
+
+                <p>This 100 percent smoke-free and eco-friendly heritage building blends the contemporary designs and
+                    warmth among vibrant colors and décor. All rooms include free safes, pillow-top mattresses,
+                    flat-screen televisions with high-definition cable programming, motion sensor climate control and
+                    air conditioning, work desks, wake-up service, coffee makers, irons, ironing boards and hair dryers.
+                    Some rooms include refrigerators, fireplaces and hot tubs. Breakfast available at a nominal fee and
+                    it may vary.</p>
+                <p>No matter what the nature of your visit may be or if you are traveling with with family, friends or
+                    on business, Golden Sunset hotel is the perfect location for your stay in Vancouver, BC.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section main-content" data-tooltip="Our services">
+        <h2>Facilities and Services</h2>
+
+        <div class="inline-block" id="service">
+            <div id="SPA" class="inline-block-item">
+                <img src="static/img-min/services/1.png" alt="Appearance view of the gim"/>
+                <h3>Spa Utopia</h3>
+
+                <p>Refresh your senses with customized services in a sanctuary reminiscent of Ancient Rome at Spa
+                    Utopia.
+                    Featuring towering pillars and cascading waterfalls, this beautifully appointed urban oasis is the
+                    big
+                    spa.</p>
+            </div>
+
+            <div id="fitness" class="inline-block-item">
+                <img src="static/img-min/services/2.png" alt="Appearance view of the swimming pool"/>
+                <h3>Fitness Club</h3>
+
+                <p>Enjoy invigorating workouts at our fitness centre with state-of-the-art equipment and free weights or
+                    explore the city by following maps of suggested jogging routes provided by our Team.</p>
+            </div>
+
+            <div id="pool" class="inline-block-item">
+                <img src="static/img-min/services/3.png" alt="Appearance view of the massage room"/>
+                <h3>Swimming Pool</h3>
+
+                <p>Savour spectacular views overlooking the harbour, mountains and Stanley Park as you swim in our
+                    heated
+                    outdoor salt water pool, soak in the hot tub or lounge on the sundeck. Indoor saunas are also
+                    available
+                    for you to relax in and enjoy the good life.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section main-content slider" data-tooltip="Our rooms">
+
+        <div class="slide" data-anchor="slide1" id="dbl-room">
+            <a href="html/photoGallery.html"><img class="image" src="static/img-min/dbl/0.jpg" alt="Appearance view of the standard room"/></a>
+            <div>
+                <h2>Standard Double or Twin Room</h2>
+
+                <p>This cosy room features an en-suite bathroom, air conditioning, hairdryer, a TV and a
+                    minibar.</p>
+
+                <p><em>Please note</em> that the type of bedding depends on availability. Guests are kindly
+                    requested to
+                    mention their preference in the Special Requests section when booking.</p>
+                <p>Free WiFi is available in all rooms. At our hotel we have bikes which our guests can use free
+                    of charge.</p>
+                <p>Double occupancy (for 2 persons) including breakfast <em>(BB)</em>.
+                    For half pansiyon (breakfast/dinner included <em>HB</em>) per adult 35.00 lira extra and for
+                    children please inquire.</p>
+                <p>Room Size: 16 m². Bed Size(s): 2 twin Or 1 large double</p>
+                <p>Rates and minimum stays may vary during special events, busy seasons, and holidays</p>
+            </div>
+            <a class="hidden-photo" href="html/photoGallery.html">More photo here</a>
+
+        </div>
+
+
+        <div class="slide" data-anchor="slide2" id="suite-room">
+            <a href="html/photoGallery.html"><img class="image" src="static/img-min/suite/1.jpg" alt="Appearance view of the suit room"/></a>
+
+            <div>
+                <h2>Suite (2 Adults + 2 Children)</h2>
+
+                <p>Located in the lush garden, this air-conditioned bungalow comes with a private terrace. It
+                    can
+                    accommodate 2 adults and 2 children; or 3 adults.</p>
+                <p><em>Please note</em> that the type of bedding and location of the room are subject to
+                    availability. Guests are kindly requested to mention their preference in the Special
+                    Requests
+                    section when
+                    booking. All requests will be considered but can not be guaranteed.</p>
+                <p>Room facilities: Balcony, Garden view, Mountain view, TV, Satellite Channels, Flat-screen TV,
+                    Air
+                    Conditioning, Desk, Seating Area, Heating, Carpeted, Private entrance, Sofa, Tile/Marble
+                    floor,
+                    Hardwood/Parquet floors, Mosquito net, Wardrobe/Closet, Shower, Hairdryer, Toilet, Bathroom,
+                    Minibar, Wake-up service.</p>
+                <p>Room Size: 40 m². Bed Size(s): 2 twin and 2 large double</p>
+                <p>Free WiFi is available in all rooms. At our hotel we have bikes which our guests can use free
+                    of
+                    charge.</p>
+                <p>Rates and minimum stays may vary during special events, busy seasons, and holidays.</p>
+            </div>
+            <a class="hidden-photo" href="html/photoGallery.html">More photo here</a>
+        </div>
+
+
+        <div class="slide" data-anchor="slide1" id="deluxe">
+            <a href="html/photoGallery.html"><img class="image" src="static/img-min/deluxe.jpg" alt="Appearance view of the deluxe room" /></a>
+
+            <div>
+                <h2>Deluxe room</h2>
+
+                <p>Our Deluxe Rooms feature contemporary décor and large windows with views of downtown
+                    Vancouver, Mount Baker and the inner working harbour. A good night’s rest is assured with
+                    pillow-topped beds. Enjoy convenient Internet access, or indulge in a refreshing soak in
+                    your ensuite Italian marble bathroom.</p>
+                <p><em>Please note</em> that the type of bedding and location of the room are subject to
+                    availability. Guests are kindly requested to mention their preference in the Special
+                    Requests
+                    section when
+                    booking. All requests will be considered but can not be guaranteed.</p>
+                <p>Room facilities: Balcony, Garden view, Mountain view, TV, Satellite Channels, Flat-screen TV,
+                    Air
+                    Conditioning, Desk, Seating Area, Heating, Carpeted, Private entrance, Sofa, Tile/Marble
+                    floor,
+                    Hardwood/Parquet floors, Mosquito net, Wardrobe/Closet, Shower, Hairdryer, Toilet, Bathroom,
+                    Minibar, Wake-up service.</p>
+                <p>Room Size: 100 m². Bed Size(s): huge double</p>
+                <p>Free WiFi is available in all rooms. At our hotel we have bikes which our guests can use free
+                    of charge.</p>
+            </div>
+            <a class="hidden-photo" href="html/photoGallery.html">More photo here</a>
+
+        </div>
+
+    </section>
+
+    <section class="section " id="contact-info" data-tooltip="Contact us">
+        <div class="main-content inline-block">
+
+
+            <div id="location" class="left">
+                <h2>Our location</h2>
+                <div id="map"></div>
+            </div>
+
+            <div id="address" class="left">
+                <h2>Address</h2>
+                <p>Suite 300-999,<br>
+                    Canada Place Vancouver,<br>
+                    British Columbia V6C 3B5, Canada</p>
+                <p>Telephone<br>
+                    +1 604 662 8111</p>
+                <p>Email<br>
+                    info@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section " id="book-form" data-tooltip="Booking">
+        <div class="main-content inline-block">
+            <form class="booking left" id="bookRoom">
+                <h2>Make a reservation</h2>
+
+                <label for="dateIn">Check-in date: <input type="text" id="dateIn" required></label><br>
+                <label for="dateOut">Check-out date: <input type="text" id="dateOut" required></label><br>
+                <div class="error">Check-out date must be larger than check-in</div>
+                <select id="selectRoom" name="selectBookingRoom">
+                    <option value="standard room" selected>Standard room</option>
+                    <option value="suite room">Suite room</option>
+                    <option value="deluxe room">Deluxe room</option>
+                </select><br>
+
+                <button class="btn">CHECK FREE ROOMS</button>
+
+            </form>
+
+            <div id="result" class="left"></div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+</footer>
+
+<!-- bower:js -->
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/fullpage.js/dist/jquery.fullpage.js"></script>
+<script src="components/simple-lightbox/dist/simpleLightbox.min.js"></script>
+<script src="components/slick-carousel/slick/slick.js"></script>
+<script src="components/jquery-ui/jquery-ui.js"></script>
+<!-- endbower -->
+
+
+<!--map location-->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmz6Hes41ZgL-jd3qPOAVIYgHBwSh4slk&callback=initMap">
+</script>
+
+
+<!--my js script-->
+
+<script type="text/javascript" src="scripts/form.js"></script>
+<script type="text/javascript" src="scripts/index.js"></script>
+<script src="scripts/Location.js"></script>
+
+</body>
+</html>

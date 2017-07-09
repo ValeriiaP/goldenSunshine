@@ -1,0 +1,20 @@
+{
+  "name": "golden-sunset",
+  "version": "1.0.0",
+  "description": "Booking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^3.3.0"
+  }
+}

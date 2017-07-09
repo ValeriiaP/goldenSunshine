@@ -1,0 +1,70 @@
+{
+  "rooms" : [
+    {
+      "type":"standard room",
+      "number": 10,
+      "status": "free",
+      "price" : "USD 80.00$"
+    },
+    {
+      "type":"standard room",
+      "number": 11,
+      "status": "free",
+      "price" : "USD 30.00$"
+    },
+    {
+      "type":"standard room",
+      "number": 12,
+      "status": "free",
+      "price" : "USD 80.00$"
+    },
+    {
+      "type":"standard room",
+      "number": 13,
+      "status": "free",
+      "price" : "USD 50.00$"
+    },
+    {
+      "type":"standard room",
+      "number": 14,
+      "status": "free",
+      "price" : "USD 90.00$"
+    },
+    {
+      "type":"standard room",
+      "number": 15,
+      "status": "free",
+      "price" : "USD 80.00$"
+    },
+    {
+      "type":"standard room",
+      "number": 16,
+      "status": "free",
+      "price" : "USD 95.00$"
+    },
+    {
+      "type":"suite room",
+      "number": 17,
+      "status": "free",
+      "price" : "USD 160.00$"
+    },
+    {
+      "type":"suite room",
+      "number": 18,
+      "status": "free",
+      "price" : "USD 280.00$"
+    },
+    {
+      "type":"deluxe room",
+      "number": 19,
+      "status": "free",
+      "price" : "USD 300.00$"
+    },
+    {
+      "type":"deluxe room",
+      "number": 20,
+      "status": "free",
+      "price" : "USD 250.00$"
+    }
+  ]
+}
